@@ -1,0 +1,231 @@
+.main-container{
+    padding: 15rem;
+    padding-top: 5rem;
+}
+nav{
+    /* background-color: red; */
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 50rem;
+}
+ul li{
+    margin-left: 2rem;
+}
+main{
+    margin-top: 1rem;
+}
+main img{
+    margin-right: 1rem;
+    height: 20rem;
+    width: 59rem;
+}
+main h1{
+    margin: 1rem;
+    margin-left: 0;
+    font-weight: 700;
+}
+main .pbutton{
+    /* position: absolute; */
+    margin-top: -7rem;
+    margin-left: 18rem;
+    /* background-color: blue; */
+}
+main button{
+    margin-top: -7rem;
+    /* margin-left: 0rem; */
+    background-color: orangered;
+    width: 10rem;
+    height: 2.5rem;
+    color: white;
+    border: none;
+}
+main .new{
+    position: absolute;
+    background-color: black;
+    margin-top: -30rem;
+    margin-left: 60rem;
+    width: 17rem;
+    color: white;
+    padding: 1rem;
+    /* height: 30rem; */
+}
+.new h1{
+    color: yellow;
+}
+.new h2{
+    font-size: 20px;
+}
+.new p{
+    opacity: 0.4;
+}
+.new hr{
+    margin: 2rem;
+    opacity: 0.3;
+}
+footer{
+    margin-top: 4rem;   
+    /* background-color: red; */
+    height: 15rem;
+    display: flex;
+
+}
+footer div {
+    /* height: 10rem;
+    width: 22rem;
+    margin: 5rem;
+    margin-top: 0;
+    margin-bottom: 0; */
+
+}
+footer .down1{
+    margin-left: 0;
+    display: flex;
+    padding: 1rem;
+    /* border: 2px solid yellow; */
+
+
+}
+.down1 .content1{
+    margin: 0;
+    width: 20rem;
+}
+/*   */
+footer .down1 h2{
+    display: block;
+    /* margin: 0; */
+    opacity: 0.3;
+}
+footer .down1 h1{
+margin: 0;
+font-size: 16px;
+font-weight: 700;
+padding-bottom: 0;
+}
+footer .down1 img{
+    height: 10rem;
+    padding-right: 1rem;
+}
+.down2 .content2{
+    margin: 0;
+    width: 20rem;
+    margin-left: 9rem;
+    margin-top: -10rem;
+}
+footer .down2 h2{
+    display: block;
+    /* margin: 0; */
+    opacity: 0.3;
+}
+footer .down2 h1{
+margin: 0;
+font-size: 16px;
+font-weight: 700;
+padding-bottom: 0;
+}
+.down2 img{
+    height: 10rem;
+    padding-left: -5rem;
+}
+.down3 .content3{
+    margin: 0;
+    width: 20rem;
+    margin-left: 9rem;
+    margin-top: -10rem;
+}
+footer .down3 h2{
+    display: block;
+    /* margin: 0; */
+    opacity: 0.3;
+}
+footer .down3 h1{
+margin: 0;
+font-size: 16px;
+font-weight: 700;
+padding-bottom: 0;
+}
+.down3 img{
+    height: 10rem;
+    padding-left: -5rem;
+}
+@media screen and (max-width:375px) {
+    body, html{
+        width: fit-content;
+        height: auto;
+    }
+    .main-container{
+        padding-top: 1rem;
+        margin-left: 0;
+        /* background-color: red; */
+        /* width: 370px; */
+        padding-left: 1rem;
+        /* height: fit-content; */
+
+    }
+    /* .navbar .logo img{
+        margin-top: 0;
+    } */
+    .navbar ul{
+        visibility: hidden;
+    }
+    main img{
+        height: 15rem;
+        width: 21rem;
+
+    }
+    main h1{
+        font-size: 2.5rem;
+        line-height: 35px;
+        
+
+    }
+    main .firsth1{
+        /* border: 10px solid blue; */
+        width: 18rem;
+
+    }
+    main .pbutton{
+        margin-top: 1rem;
+        margin-left:0.5rem;
+        /* border: 10px solid blue; */
+        width: 18rem;
+        /* background-color: pink;  */
+    }
+    main .new{
+        margin-left: 1rem;
+        margin-top: 1rem;
+        /* background-color: green; */
+        position: relative;
+    }
+    footer{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        /* border: 10px solid green; */
+        width: 20rem;
+        height: auto;
+        /* margin-left: 0; */
+    }
+    footer .down2{
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    footer .down3{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .down2 .content2,.down3 .content3{
+        /* font-size: 0.5rem; */
+        margin-left: 8rem;
+      
+
+    }
+   footer img{
+    /* height: 10px;
+    width: 10px; */
+    width:100px;
+    margin-right: 2px;
+   }
+}
